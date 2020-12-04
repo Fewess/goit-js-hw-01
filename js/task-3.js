@@ -4,11 +4,11 @@ let message;
 let input = prompt('Введите пароль');
 
 if (input === null) {
-    console.log(message = 'Отменено пользователем!');
+    (message = 'Отменено пользователем!');
 } else if (input === ADMIN_PASSWORD) {
-    console.log(message = 'Добро пожаловать!');
+    (message = 'Добро пожаловать!');
 } else  {
-    console.log(message = 'Доступ запрещен, неверный пароль!');
+    (message = 'Доступ запрещен, неверный пароль!');
 }
 
 alert(message);
